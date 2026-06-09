@@ -1,0 +1,40 @@
+/* This is the main container containing all the elements of the array */
+.array-container {
+    display: flex;
+    /* using flexbox */
+    align-items: flex-end;
+    /* aligns to right edge or bottom*/
+    justify-content: center;
+
+    height: 80vh;
+    width: 100%;
+
+    gap: 2px;
+}
+
+/* These are only the common styling of the array-bar element */
+.array-bar {
+    width: 6px;
+    background-color: pink;
+    margin-right: 2px;
+}
+
+.gen {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 6px;
+}
+
+.gen button {
+    border-style: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+
+.gen button:hover {
+    cursor: pointer;
+    background-color: rgb(163, 78, 78);
+}
